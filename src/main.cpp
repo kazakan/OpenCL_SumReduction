@@ -23,7 +23,7 @@ int main() {
     cl_int *output = new cl_int[n_groups];
 
     // Read .cl file
-    ifstream ifs("../sum.cl");
+    ifstream ifs("sum.cl");
     string sourcestr((istreambuf_iterator<char>(ifs)), (istreambuf_iterator<char>()));
 
     try {
